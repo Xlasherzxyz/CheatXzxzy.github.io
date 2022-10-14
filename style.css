@@ -18,6 +18,11 @@ body {
     height: 100px;
 }
 
+#desk {
+    font-size: 20px;
+    color: #222222;
+}
+
 b {
     font-size: 30px;
 }
