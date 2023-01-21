@@ -9,8 +9,36 @@ body {
 }
 
 .Head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Title {
     font-size: 50px;
     color: white;
-    margin-top: -600px;
+    margin-top: 30px;
     margin-right: 50px;
+}
+
+#button {
+    width: 150px;
+    height: 70px;
+    font-size: 2em;
+    letter-spacing: 3px;
+    border: 3px solid #E0D0C6;
+    background-color: transparent;
+    color: #E0D0C6;
+    margin-top: 200px;
+    user-select: none;
+}
+
+#button:focus {
+    outline: none;
+}
+
+#button:active {
+    border: 3px solid darkgrey;
+    color: darkgray;
 }
