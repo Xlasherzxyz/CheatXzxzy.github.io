@@ -1,14 +1,5 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-.Background {
-    width: 100%;
-    height: 100vh;
-    background-image: url("BG.jpg");
+body {
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
